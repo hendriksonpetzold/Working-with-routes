@@ -1,18 +1,23 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_primeira_tela/pages/home_image1_page/image_page_test.dart';
+
 class CardWithImage extends StatelessWidget {
   final String image;
   final String text;
-  final String routeOfImage;
-  final String routeOfButton;
 
-  const CardWithImage(
-      {Key? key,
-      required this.text,
-      required this.image,
-      required this.routeOfImage,
-      required this.routeOfButton})
-      : super(key: key);
+  final String imageForRoute;
+  final String textForRoute;
+  final String descriptioForRoute;
+
+  const CardWithImage({
+    Key? key,
+    required this.text,
+    required this.image,
+    required this.imageForRoute,
+    required this.textForRoute,
+    required this.descriptioForRoute,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +35,16 @@ class CardWithImage extends StatelessWidget {
           children: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pushNamed(routeOfImage);
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    settings: RouteSettings(name: 'imagepagetest', arguments: {
+                      'image': imageForRoute,
+                      'text': textForRoute,
+                      'description': descriptioForRoute,
+                    }),
+                    builder: (context) => const ImagePageTest(),
+                  ),
+                );
               },
               child: Align(
                 alignment: Alignment.topLeft,
@@ -58,7 +72,17 @@ class CardWithImage extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(30))),
                 child: TextButton(
                     onPressed: () {
-                      Navigator.of(context).pushNamed(routeOfButton);
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          settings:
+                              RouteSettings(name: 'imagepagetest', arguments: {
+                            'image': imageForRoute,
+                            'text': textForRoute,
+                            'description': descriptioForRoute,
+                          }),
+                          builder: (context) => const ImagePageTest(),
+                        ),
+                      );
                     },
                     child: const Text(
                       'View more',

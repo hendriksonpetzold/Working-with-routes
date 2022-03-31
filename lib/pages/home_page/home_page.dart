@@ -55,8 +55,9 @@ class HomePage extends StatelessWidget {
               CardWithImage(
                 text: controller.textImage1,
                 image: 'assets/imagemflutter2.jpg',
-                routeOfImage: '/page2',
-                routeOfButton: '/page2',
+                imageForRoute: 'assets/imagemflutter2.jpg',
+                textForRoute: controller.textImage1,
+                descriptioForRoute: 'Description of image',
               ),
               const SizedBox(
                 height: 30,
@@ -64,8 +65,9 @@ class HomePage extends StatelessWidget {
               CardWithImage(
                 text: controller.textImage2,
                 image: 'assets/imagemflutter3.jpg',
-                routeOfImage: '/page3',
-                routeOfButton: '/page3',
+                imageForRoute: 'assets/imagemflutter3.jpg',
+                textForRoute: controller.textImage2,
+                descriptioForRoute: 'Description of image',
               ),
               const SizedBox(
                 height: 30,
@@ -73,8 +75,9 @@ class HomePage extends StatelessWidget {
               CardWithImage(
                 text: controller.textImage3,
                 image: 'assets/imagemflutter4.jpg',
-                routeOfImage: '/page4',
-                routeOfButton: '/page4',
+                imageForRoute: 'assets/imagemflutter4.jpg',
+                textForRoute: controller.textImage3,
+                descriptioForRoute: 'Description of image',
               ),
               const SizedBox(
                 height: 30,
@@ -82,8 +85,9 @@ class HomePage extends StatelessWidget {
               const CardWithImage(
                 text: 'Brasilian Beach',
                 image: 'assets/imagemflutter2.jpg',
-                routeOfImage: '/page2',
-                routeOfButton: '/page2',
+                imageForRoute: 'assets/imagemflutter2.jpg',
+                textForRoute: 'Brasilian Beach',
+                descriptioForRoute: 'Description of image',
               ),
               const SizedBox(
                 height: 30,
