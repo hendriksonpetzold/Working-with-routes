@@ -15,17 +15,18 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
                                                               
-          
-   APP HOME PAGE
-                                  
+<div align="center">
+APP HOME PAGE 
+</div>                                                                         
   <div align="center">
 <img src="https://user-images.githubusercontent.com/102036608/161277715-2c6e7a2e-6ef6-4730-9186-2185fb152cbc.jpeg" width="300px" />
-</div>                                          
-                
-               
-                                                          
-   APP IMAGE LOCATION INFORMATION PAGE
-                    
+</div>   
+
+
+
+ <div align="center">
+ APP IMAGE LOCATION INFORMATION PAGE 
+</div>                                                                                                 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/102036608/161280372-e240f996-b39d-4f24-aaf9-bb033210426c.jpeg" width="300px" />
 </div>                                                                                                    
