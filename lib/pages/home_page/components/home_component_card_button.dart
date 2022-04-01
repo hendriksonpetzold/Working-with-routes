@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_primeira_tela/pages/home_image1_page/page_of_card.dart';
+import 'package:flutter_primeira_tela/pages/image_location_information_page/image_location_information_page.dart';
 
 class CardWithImage extends StatelessWidget {
   final String image;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_primeira_tela/pages/home_image1_page/components/body_page_component.dart';
+import 'package:flutter_primeira_tela/pages/image_location_information_page/components/body_page_component.dart';
 
 class ImagePageTest extends StatefulWidget {
   const ImagePageTest({Key? key}) : super(key: key);
