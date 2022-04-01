@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_primeira_tela/pages/home_image1_page/image_page_test.dart';
+import 'package:flutter_primeira_tela/pages/home_image1_page/page_of_card.dart';
 
 class CardWithImage extends StatelessWidget {
   final String image;
   final String text;
-
   final String imageForRoute;
   final String textForRoute;
   final String descriptioForRoute;
